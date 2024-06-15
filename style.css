@@ -1,0 +1,122 @@
+:root{
+    --primary:#aa5d0f  ;
+    --bg : #000000 ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    }
+    
+body {
+    font-family : 'Poppins', sans-serif;
+    background-color: var(--bg);
+    color: rgb(255, 255, 255) ;
+    min-height: 2000px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .navbar-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.navbar .navbar-nav a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    margin: 0 1rem;
+}
+
+.hero .content {
+    padding: 1.4rem 7%;
+    max-width: 60rem
+ }
+
+.hero .content h1 {
+    margin-top: 10rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px rgba(1, 1, 1, a3, 0.5);
+    line-height: 1.2;
+}
+
+.hero .content h1 span {
+    color: var(--primary);
+}
+
+.hero .content p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hero::after {
+    content: '';
+    display: block;
+    position: absolute;
+}
+
+.hero .content h2 {
+    margin-top: 10rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: rgb (255, 255, 255);
+    text-shadow: 1px 1px 3px rgba(1, 1, 1, a3, 0.5);
+    line-height: 1.2;
+}
+
+.hero .content h2 span {
+    color: var(--primary)
+}
+
+.hero .content p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hero::after {
+    content: '';
+    display: block;
+    position: absolute;
+}
+
+.hero .content h3 {
+    margin-top: 10rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: rgb (255, 255, 255);
+    text-shadow: 1px 1px 3px rgba(1, 1, 1, a3, 0.5);
+    line-height: 1.2;
+}
+
+.hero .content h3 span {
+    color: var(--primary)
+}
+
+.hero .content p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hero::after {
+    content: '';
+    display: block;
+    position: absolute;
+}
